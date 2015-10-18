@@ -82,12 +82,12 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         }
     })
 
-    .state('tab.introduction', {
-        url: '/introduction',
+    .state('tab.more', {
+        url: '/more',
         views: {
-            'tab-introduction': {
-                templateUrl: 'templates/tab-introduction.html',
-                controller: 'introductionCtrl'
+            'tab-more': {
+                templateUrl: 'templates/tab-more.html',
+                controller: 'moreCtrl'
             }
         }
     });

@@ -1,5 +1,6 @@
 /* General
 ==================================*/
+
 h1 {
     color: #fff;
     text-shadow: 0 1px 0px #000;
@@ -9,6 +10,7 @@ h1 {
 
 /* Utilities
 ==================================*/
+
 .title-bordered {
     border-top: solid 2px #bbb;
     padding-top: 30px;
@@ -26,6 +28,7 @@ p {
 
 /* Menu
 ==================================*/
+
 .menu .bar.bar-header.expanded {
     transition: all .5s ease-in-out;
 }
@@ -63,6 +66,7 @@ p {
 
 /* Login
 ==================================*/
+
 .app-icon {
     background-color: #fff;
     background: url('../img/crown.jpg') center;
@@ -78,13 +82,26 @@ p {
     bottom: 0;
 }
 
-
-.boxed{
-    border: 1px solid black ;
+.boxed {
+    border: 1px solid black;
     color: white;
     background-color: black;
-    height:33px;
+    height: 40px;
     text-align: left;
     font-size: 20px;
+    vertical-align: middle;
+    position: relative; 
+    /*position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;*/
 }
 
+.boxedText {
+    position: absolute;
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    top:10px;
+}

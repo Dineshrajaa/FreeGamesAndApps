@@ -19,7 +19,7 @@ angular.module('starter.controllers', [])
 
 })
 
-.controller('introductionCtrl', function($scope) {
+.controller('moreCtrl', function($scope) {
 
 })
 
