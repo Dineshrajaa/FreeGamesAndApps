@@ -1,0 +1,60 @@
+<ion-view view-title="{{profile.title}}">
+    <ion-content class="padding">
+        <!-- <div class="hero slide-up" style="background-image: url('img/profile-bg.jpg');">
+            <div class="content">
+                <div class="avatar" style="background-image: url('img/daenerys.jpg');"></div>
+                <h3><a class="light">{{profile.title}}</a></h3>
+            </div>
+        </div> -->
+        <!-- <div style="background-image: url('img/profile-bg.jpg');height:250px;max-width:100%;">
+            <div class="content">
+                <center>
+                    <div class="avatar" style="background-image: url('img/daenerys.jpg');height: 88px;width:88px;">
+                    </div>
+                </center>
+                <h3><a class="light">{{profile.title}}</a></h3>
+            </div>
+        </div> -->
+        <div style="height:250px;max-width:100%;background-image:url('img/profile-bg.jpg');">
+            <div class="content">
+                <div style="background-image: url('img/daenerys.jpg');height:88px;width:88px;left:50%;top:50%;float:left;">
+                </div>                
+            </div>
+            <h3 style="text-align: center;"><a>{{profile.title}}</a></h3>
+        </div>
+        <div class="boxed">{{profile.subtitle}}</div>
+        <!-- <h4 class="content padding double-padding-x">{{profile.subtitle}}</h4> -->
+        <div class="list card">
+            <!-- <div class="item item-divider">Recent Updates</div> -->
+            <div class="item  item-icon-left">
+                <div>
+                    <i class="icon ion-ios-telephone"></i> {{profile.phone}}
+                </div>
+            </div>
+        </div>
+        <div class="list card">
+            <!-- <div class="item item-divider">Health</div> -->
+            <div class="item item-icon-left">
+                <div>
+                    <i class="icon ion-ios-email"></i> {{profile.email}}
+                </div>
+            </div>
+        </div>
+        <div class="list card">
+            <!-- <div class="item item-divider">Upcoming</div> -->
+            <div class="item item-icon-left">
+                <div>
+                    <i class="icon ion-ios-world"></i> {{profile.website}}
+                </div>
+            </div>
+        </div>
+        <div class="list card">
+            <!-- <div class="item item-divider">Upcoming</div> -->
+            <div class="item item-icon-left">
+                <div>
+                    <i class="icon ion-ios-information-outline" style="height:52px"></i> {{profile.description}}
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
