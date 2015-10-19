@@ -35,8 +35,9 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     // setup an abstract state for the tabs directive
         .state('tab', {
         url: '/tab',
-        abstract: true,
-        templateUrl: 'templates/tabs.html'
+       // abstract: true,
+        templateUrl: 'templates/tabs.html',
+        controller:'tabsCtrl'
     })
 
     // Each tab has its own nav history stack:
@@ -60,7 +61,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
                 }
             }
         })
-        
+
 
     .state('tab.achievements', {
         url: '/achievements',

@@ -1,5 +1,9 @@
 angular.module('starter.controllers', [])
-
+.controller('tabsCtrl',function($scope,$ionicSideMenuDelegate){
+   $scope.openMenu = function () {
+    $ionicSideMenuDelegate.toggleRight();
+  };
+})
 .controller('contactCtrl', function($scope) {
     /* Page varables */
     $scope.profile = {};
@@ -9,6 +13,7 @@ angular.module('starter.controllers', [])
     $scope.profile.email = 'bhatiar2003@yahoo.co.uk';
     $scope.profile.website = 'numsiii.com';
     $scope.profile.description = 'We make quality mobile apps and games for out clients and users';
+
 })
 
 .controller('infoCtrl', function($scope) {
