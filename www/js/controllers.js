@@ -11,7 +11,7 @@ angular.module('starter.controllers', [])
     $scope.profile.subtitle = 'Quality product for all';
     $scope.profile.phone = '07786324603';
     $scope.profile.email = 'bhatiar2003@yahoo.co.uk';
-    $scope.profile.website = 'numsiii.com';
+    $scope.profile.website = 'http://www.numsiii.com';
     $scope.profile.description = 'We make quality mobile apps and games for out clients and users';
 
 })
@@ -31,5 +31,11 @@ angular.module('starter.controllers', [])
 .controller('videosCtrl', function($scope) {
 
 })
+
+.controller('contactformCtrl', function($scope) {
+
+})
+
+
 
 

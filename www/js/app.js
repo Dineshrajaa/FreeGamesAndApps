@@ -91,6 +91,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
                 controller: 'moreCtrl'
             }
         }
+    })
+
+    .state('tab.contactform', {
+        url: '/contactform',
+        views: {
+            'tab-contactform': {
+                templateUrl: 'templates/tab-contactform.html',
+                controller: 'contactformCtrl'
+            }
+        }
     });
 
     // if none of the above states are matched, use this as the fallback
